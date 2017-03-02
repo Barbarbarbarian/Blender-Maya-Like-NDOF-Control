@@ -10,9 +10,9 @@ like in Maya, this is what you need.
 
 ## USAGE:
 
-Download the source and libraries of Blender from the official Blender Git and SVN repositories. (Details can be found in [there](https://wiki.blender.org/index.php/Dev:Doc/Building_Blender)). Replace "view3d_edit.c" with file provided in this repository. Compile and run.
+Download the source and libraries of Blender from the official Blender Git and SVN repositories. (Details can be found in [there](https://wiki.blender.org/index.php/Dev:Doc/Building_Blender)). Replace "view3d_edit.c" with file provided in this repository. Compile the entire project and run.
 
-After Blender started, in the "User Preference -> Input" pannel, change Navigation Style to "Orbit".
+After our custom modified version Blender started, in the "User Preference -> Input" pannel, change Navigation Style to "Orbit".
 
 ## What happened?
 
