@@ -6,13 +6,13 @@ If you are using NDOF controller (e.g. 3DConnexion SpaceNavigator) and prefer th
 * rotating around the CENTRE of the SELECTED OBJECT
 * panning the view SIMULTANOUSLY
 
-like which in Maya, this is what you need.
+like in Maya, this is what you need.
 
 ## USAGE:
 
-Download the source and libraries of Blender from official Blender Git and SVN repositories. (Details can be found in [there](https://wiki.blender.org/index.php/Dev:Doc/Building_Blender)). Replace "view3d_edit.c" with file provided in this repository. Compile and run.
+Download the source and libraries of Blender from the official Blender Git and SVN repositories. (Details can be found in [there](https://wiki.blender.org/index.php/Dev:Doc/Building_Blender)). Replace "view3d_edit.c" with file provided in this repository. Compile and run.
 
-After Blender started, in User Preference -> Input pannel, change Navigation Style to "Orbit".
+After Blender started, in the "User Preference -> Input" pannel, change Navigation Style to "Orbit".
 
 ## What happened?
 
@@ -68,7 +68,7 @@ else if ((U.ndof_flag & NDOF_MODE_ORBIT) ||
 }
 ```
 
-## Known Problems
+## Known Problems (Current Blender version: 2.78.4, 28-Feb-2017)
 
 ### Add-on Archimesh
 The add-on "Archimesh" are not working correctly when update the room, e.g. change Number of Walls. (It seems that it is not my problem :-P . Details can be found in [there](https://developer.blender.org/T50632))
